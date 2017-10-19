@@ -10,10 +10,10 @@ int rowSize;
 int colSize;
 cout<<"Enter rows and columns of stars:"<<endl;
 cin>>rowSize;
-cin>>colSize;
 if (rowSize <= 0) {
   return 0;
 }
+cin>>colSize;
 if (colSize <= 0) {
   return 0;
 }
